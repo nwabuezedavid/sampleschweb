@@ -6,51 +6,51 @@ def home(request):
         # 'site':siteedit.objects.get(idx=1)
     }
     return render (request, "home.html",con)
-def about(request):
+def discover(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "about.html",con)
-def gallery(request):
+    return render (request, "discove.html",con)
+def teology(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "gallery.html",con)
-def contact(request):
+    return render (request, "teology.html",con)
+def study(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "contact.html",con)
-def glance(request):
+    return render (request, "study.html",con)
+def Engage(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "glance.html",con)
-def news(request):
+    return render (request, "Engage.html",con)
+def Connect(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "news.html",con)
-def sport(request):
+    return render (request, "Connect.html",con)
+def Library(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "sport.html",con)
-def visite(request):
+    return render (request, "Library.html",con)
+def WorkingatTrinity(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "visite.html",con)
-def sec(request):
+    return render (request, "WorkingatTrinity.html",con)
+def student(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "sec.html",con)
-def lang(request):
+    return render (request, "student.html",con)
+def WaystoGive(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)
     }
-    return render (request, "lang.html",con)
+    return render (request, "WaystoGive.html",con)
 def recutment(request):
     con ={
         # 'site':siteedit.objects.get(idx=1)

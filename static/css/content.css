@@ -1,0 +1,322 @@
+/* for TinyMCE - admin editor */
+body#tinymce.wp-editor { 
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Landing Page background for coloured boxes */
+.discover {
+	background-color: #ffffff;
+}
+
+/* Custom Content Styles */
+.bluebkgd {
+background-color:#142e7b;
+}
+.greybkgd {
+background-color:#63666A !important;
+}
+sup {
+	font-size: 59% !important;
+}
+
+/* Breadcrumbs */
+.section-breadcrumbs {
+	padding-bottom: 0.5rem !important;
+}
+
+/* 2/3, 1/3 page split for Landing & Content */
+.container-split {
+	display:inline-block;
+	width: 100%;
+}
+
+.container-left {
+	width: 100%;
+	float:left;
+}
+.container-right {
+	margin-top:15px;
+	width: 30%;
+	float:right;
+	border:1px solid #B9975B;
+	padding-left:14px;
+	padding-right:14px;
+	padding-top:10px;
+	/*padding-bottom:14px;*/
+	font-size:0.9rem;
+	margin-left: 20px;
+	margin-bottom:20px;
+
+}
+
+.container-right .hideParagraph p {
+	margin-bottom: 0rem;
+}
+
+.container-right :first-child  {
+	margin-bottom: 0rem;
+}
+
+.container-right :last-child  {
+	margin-bottom: 0rem;
+}
+
+.container-right h2 {
+	background-color:#B9975B;
+	color: #ffffff;
+	font-size: 0.9rem;
+	margin-left:-14px;
+	margin-right: -14px;
+	margin-top: -10px;
+	padding: 6px 6px 8px 10px;
+	margin-bottom:5px !important;
+}
+.container-right ul {
+	margin-left:-30px;
+	list-style:none;
+	list-style-type: none;
+	margin-bottom: 0rem;
+}
+
+/* Expand collapse */
+details {
+  	margin: 0.2rem auto;
+  	padding:0;
+	/*padding:0.5rem 0.5rem;*/
+}
+  details.summary {
+    color: #000;
+	  background-color:#f1e8da;
+}
+  details p {
+	padding: 1.2rem 1.6rem;
+	  margin: 0;
+	  background-color: #ffffff;
+	  border: 2px solid #f1e8da;
+}
+details p:first-of-type  {
+	margin: 0rem;
+	padding: 0rem;
+	border:0;
+}
+
+details p:last-of-type  {
+	margin: 0rem;
+	padding: 0rem;
+	border:0;
+}
+
+.expand-test{
+	display: flow-root;
+	padding:10px;
+}
+.test{vertical-align:middle;}
+details[open] summary {
+  color: #000; }
+details summary::-webkit-details-marker {
+  display:none;
+}
+summary::-moz-list-bullet { list-style-type: none;  }
+summary:after {
+  content: '\25B8';
+  color: #000;
+  float: right;
+  font-size: 1.5rem;
+	font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  /*font-weight: bold;*/
+  margin: -5px 10px 0 0;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+}
+details[open] summary:after {
+  content: '\25BE';
+	color:#000;
+	padding: 0.5rem 0.5rem;
+}
+summary {
+  padding: 0.5rem;
+	background-color:#f1e8da; }
+  summary:hover {
+    cursor: pointer;
+    color: #000; }
+  summary:focus {
+    outline: 1px dotted #000;
+    color: #000;
+    padding: 0.5rem; }
+
+@media (min-width: 992px) {
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+summary::-moz-list-bullet { list-style-type: none;  }
+
+}
+    @media (min-width: 1200px) {
+
+details summary::-webkit-details-marker {
+  display:none;
+}
+summary::-moz-list-bullet { list-style-type: none;  }}
+@media (min-width: 1440px) {
+details summary::-webkit-details-marker {
+  display:none;
+}
+summary::-moz-list-bullet { list-style-type: none;  }}
+@media (min-width: 1920px) {
+details summary::-webkit-details-marker {
+  display:none;
+}
+summary::-moz-list-bullet { list-style-type: none;  }}
+
+/* To make Page Title be in brand color */
+.sectionContent h1 {color:#142E7B;}
+
+/* To fix the bullet layout */
+.landing-intro dl,
+.landing-intro ol,
+.landing-intro ul {
+	margin-left:-0.5rem}
+@media (min-width: 992px) {
+	.landing-intro dl,
+	.landing-intro ol,
+	.landing-intro ul {
+		margin-left:9.5rem
+	}
+}
+
+    @media (min-width: 1200px) {
+		.landing-intro dl,
+		.landing-intro ol,
+		.landing-intro ul {
+			margin-left:9.5rem
+		}
+}
+    @media (min-width: 1440px) {
+		.landing-intro dl,
+		.landing-intro ol,
+		.landing-intro ul {
+			margin-left:9.5rem
+		}
+}
+@media (min-width: 1920px) {
+	.landing-intro dl,
+	.landing-intro ol,
+	.landing-intro ul {
+		margin-left:9.5rem
+	}
+}
+
+
+/* News image repeater*/
+.repeaterImage {
+    width: 100%;
+	margin-bottom:5px;
+}
+
+/*Make past provost image float left*/
+img.alignnone.size-full.wp-image-2651{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-full.wp-image-2642{
+	float:left;
+	margin-right: 1em;
+}
+
+img.alignnone.size-full.wp-image-2643{
+	float:left;
+	margin-right: 1em;
+}
+
+img.alignnone.wp-image-2631.size-full{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-full.wp-image-2647{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-full.wp-image-2648{
+	float:left;
+	margin-right: 1em;
+}
+
+img.alignnone.size-full.wp-image-205{
+	float:left;
+	margin-right: 1em;
+}
+
+img.alignnone.size-medium.wp-image-2644{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-full.wp-image-2652{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-medium.wp-image-2646{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-medium.wp-image-2645{
+	float:left;
+	margin-right: 1em;
+}
+img.alignnone.size-full.wp-image-2649{
+	float:left;
+	margin-right: 1em;
+}
+
+
+/*
+.size-full {
+	max-width:1024px;
+	max-height:1024px;
+}
+
+
+.size-large {
+	max-width:1024px;
+	max-height:1024px;
+}
+
+.size-medium {
+	max-width:300px;
+	max-height:300px;
+}
+
+.size-thumbnail {
+	max-width:150px;
+	max-height:150px;
+}
+*/
+
+.nocomments{display:none;}
+
+
+.embed-video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+}
+.embed-video-container iframe, .embed-video-container object, .embed-video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a:not([href]) {
+    display: block;
+}
+
+.monthpicker {
+	padding:0 !important;
+	height:0 !important;
+}

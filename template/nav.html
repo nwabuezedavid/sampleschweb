@@ -1,0 +1,115 @@
+<div style="height: 123px;"><div class="pb-menu pb pb-menu-sticky" id="pb_menu_B071DC61EA068864FC4FA0D05B79DDB7" style="display: block; margin-top: 0px;">
+
+
+<nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center py-4">
+        <!-- Logo Section -->
+        <div class="flex items-center space-x-2">
+          <img src="" alt="Logo" class="w-8 h-8">
+          <div class="text-blue-900 font-semibold">
+            <p>Lagos</p>
+            <p>Preparatory &</p>
+          </div>
+        </div>
+
+        <!-- Hamburger Icon for Mobile -->
+        <div class="block lg:hidden">
+          <button id="mobile-menu-button" class="text-blue-900 focus:outline-none">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+          </button>
+        </div>
+
+        <!-- Full Navigation Links -->
+        <div class="hidden lg:flex items-center space-x-6 text-green-600 font-semibold">
+          <div class="relative group">
+            <a href="{% url 'glance' %}" class="hover:text-green-800">AT A GLANCE</a>
+            <!-- Dropdown Menu -->
+            <div class="absolute left-0 hidden dropdown bg-white shadow-md p-2 rounded-md mt-1 space-y-2">
+              <a href="{% url 'EYFS' %}" class="block text-green-600 hover:text-green-800">Overview</a>
+              <a href="{% url 'infortechcom' %}" class="block text-green-600 hover:text-green-800">Mission</a>
+              <a href="{% url 'lang' %}" class="block text-green-600 hover:text-green-800">Vision</a>
+            </div>
+          </div>
+
+          <div class="relative group">
+            <a href="{% url 'recutment' %}" class="hover:text-green-800">SCHOOL POLICIES</a>
+            
+          </div>
+
+          <div class="relative group">
+            <a href="#" class="hover:text-green-800">OUR SCHOOLS</a>
+            <div class="absolute left-0 hidden dropdown bg-white shadow-md p-2 rounded-md mt-1 space-y-2">
+              <a href="{% url 'visite' %}" class="block text-green-600 hover:text-green-800">Primary School</a>
+              <a href="{% url 'visite' %}" class="block text-green-600 hover:text-green-800">invite and open day</a>
+              <a href="{% url 'sec' %}" class="block text-green-600 hover:text-green-800">Secondary School</a>
+            </div>
+          </div>
+          
+          <a href="{% url 'sport' %}" class="hover:text-green-800">ADMISSION</a>
+          <a href="{% url 'gallery' %}" class="hover:text-green-800">GALLERY</a>
+        </div>
+
+        <!-- Highlighted Links -->
+        <div class="hidden lg:flex space-x-6">
+          <a href="{% url 'news' %}" class="text-white bg-blue-900 px-4 py-2 rounded-md font-semibold hover:bg-blue-800">NEWS</a>
+          <a href="{% url 'contact' %}" class="text-green-600 font-semibold hover:text-green-800">CONTACT</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1">
+        <a href="{% url 'glance' %}" class="block px-3 py-2 rounded-md text-base font-semibold text-green-600 hover:bg-gray-200">AT A GLANCE</a>
+      </div>
+    </div>
+  </nav>
+  <style>
+    /* Custom dropdown hover and mobile menu styling */
+    .group:hover .dropdown {
+      display: block;
+    }
+    .dropdown {
+      transition: all 0.3s ease-in-out;
+    }
+  </style>
+   <script>
+    // JavaScript for toggling the mobile menu
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+      var menu = document.getElementById('mobile-menu');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+        menu.classList.add('block');
+      } else {
+        menu.classList.add('hidden');
+        menu.classList.remove('block');
+      }
+    });
+
+    // JavaScript for dropdown toggle
+    document.querySelectorAll('.dropdown-toggle').forEach(button => {
+      button.addEventListener('click', function() {
+        var dropdown = this.nextElementSibling;
+        dropdown.classList.toggle('hidden');
+        dropdown.classList.toggle('block');
+      });
+    });
+  </script>
+  <script>
+    // JavaScript for toggling the mobile menu
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+      var menu = document.getElementById('mobile-menu');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+        menu.classList.add('block');
+      } else {
+        menu.classList.add('hidden');
+        menu.classList.remove('block');
+      }
+    });
+  </script>
+
+  </div>
